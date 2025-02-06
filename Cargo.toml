@@ -7,3 +7,10 @@ edition = "2021"
 rust-htslib = "0.49.0"
 anyhow = "1.0"
 rayon = "1.7"
+clap = { version = "4.2", features = ["derive"]}
+regex = "1.11.1"
+lazy_static = "1.5.0"
+
+[[bin]]
+name = "longfuse"
+path = "src/main.rs"
